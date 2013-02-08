@@ -1,0 +1,47 @@
+<%= simple_form_for(@participante) do |f| %>
+   <%= f.error_notification %>
+
+  <div class="field">
+    <%= f.input :nombre %><br />
+    
+  </div>
+  <div class="field">
+    <%= f.input :ap_paterno %><br />
+    
+  </div>
+  <div class="field">
+    <%= f.input :ap_manterno %><br />
+    
+  </div>
+  <div class="field">
+    <%= f.input :sexo %><br />
+    
+  </div>
+  <div class="field">
+    <%= f.input :tipo_doc %><br />
+    
+  </div>
+  <div class="field">
+    <%= f.input :num_doc %><br />
+    
+  </div>
+  <div class="field">
+    <%= f.input :direccion %><br />
+    
+  </div>
+  <div class="field">
+    <%= f.input :distrito %><br />
+    
+  </div>
+  <div class="field">
+    <%= f.input :correo %><br />
+    
+  </div>
+  <div class="field">
+    <%= f.input :fec_nac %><br />
+    
+  </div>
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

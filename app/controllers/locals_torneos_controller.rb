@@ -1,0 +1,2 @@
+class Locals_Torneos_controller< ApplicationController
+end
